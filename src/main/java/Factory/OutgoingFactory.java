@@ -4,13 +4,21 @@ import Model.OutgoingDocument;
 
 /**
  * Класс - фабрика исходящих документов
+ *
+ * @return объект - исходящий документ
  */
 public class OutgoingFactory implements DocumentFactory<OutgoingDocument> {
-    @Override
+  
+  /**
+     * метод генерации исходящего документа
+     *
+     * @return получение исходящего документа
+     */
+  @Override
     public OutgoingDocument createDocument() {
         return OutgoingDocument.newOutgoingBuilder()
                 .setDestination("Место назначения")
-                .setDeliveryMethod("Почта")
+                .setDeliveryMethod("Метод получения")
                 .build();
     }
 }
