@@ -1,18 +1,19 @@
 package Model;
 
 import Factory.Storable;
-
 import java.text.SimpleDateFormat;
 import java.util.Objects;
 
 /**
- * абстарктный класс - документ
+ * Класс - Model.Document документ
  */
 public abstract class   Document implements Comparable <Document>, Storable {
 
     /**
-     * Объявление полей класса Model.Document
-     */
+      * Объявление полей класса Model.Document
+      *
+      */
+     
     /*Поле для Id*/
     private int id;
     /*Поле для названия документа*/
@@ -28,9 +29,10 @@ public abstract class   Document implements Comparable <Document>, Storable {
     /*Поле с типом документа*/
     private String typeDoc;
 
-
     /**
-     * переопределение  текущих полей
+     * переопределение  текущих полей 
+     *
+     * @return текущих полей
      */
     @Override
     public int getId() {
@@ -92,6 +94,8 @@ public abstract class   Document implements Comparable <Document>, Storable {
 
     /**
      * Метод cортировки документа по имени и автору
+     *
+     * @return результат сортировки
      */
     public int compareTo(Document doc) {
         int result = this.authorOfDoc.compareTo(getAuthorOfDoc());
@@ -116,8 +120,9 @@ public abstract class   Document implements Comparable <Document>, Storable {
     }
 
     /**
-     * Метод вывода на консоль
-     * */
+     * Метод для вывода на консоль 
+     * 
+     */
     @Override
     public String toString() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
