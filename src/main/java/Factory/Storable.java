@@ -5,16 +5,14 @@ package Factory;
  */
 public interface Storable {
     /**
-     * Метод-геттер
-     *
-     * @return рег.номер документа
-     */
+      *
+      * @return рег.номер документа
+      */
      int getId();
     /**
-     * Метод-геттер
-     *
-     * @return имя документа
-     */
+      * 
+      * @return имя документа
+      */
      String getTableName();
 
 }
