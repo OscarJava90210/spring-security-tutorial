@@ -1,14 +1,23 @@
 package Factory;
+
 import Model.IncomingDocument;
 import Service.ServiceGenerator;
 import Service.ServiceList;
 import static Service.ServiceGenerator.randomDate;
 
 /**
- * Класс - фабрика входящих документов
+  * Класс - фабрика входящих документов
+  *
+  * @return объект - входящий документ
  */
 public class IncomingFactory implements DocumentFactory< IncomingDocument > {
-    @Override
+   
+   /**
+     * метод генерации входящего документа
+     *
+     * @return получение входящего документа
+     */
+   @Override
     public IncomingDocument createDocument() {
         return IncomingDocument.newIncomingBuilder()
                         .setIncDate(randomDate())
@@ -18,10 +27,10 @@ public class IncomingFactory implements DocumentFactory< IncomingDocument > {
                         .setType("Входящий")
                         .setId(ServiceGenerator.randomInt())
                         .setName(ServiceList.listName).toString())
-                        .setText("генерация текста=" + ServiceGenerator.randomInt())
+                                .setText("генерация текста=" + ServiceGenerator.randomInt())
                         .setNumber(ServiceGenerator.randomInt())
                         .setAuthor(ServiceList.listName).toString()
                         .setDate(randomDate())
-                        .build();
+                        .build(); 
     }
 }
