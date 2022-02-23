@@ -5,8 +5,9 @@ import java.util.ArrayList;
 import Exception.DocumentExistsException;
 import Service.StorageList;
 
-/**Repository для класса task
- */
+/**
+  *Repository для класса task
+  */
 public  class TaskRepository extends StorageList {
 
     /**Конструктор TaskRepository*/
@@ -14,24 +15,27 @@ public  class TaskRepository extends StorageList {
     }
 
     /**
-     * Поле объект для instance
-     */
-    static TaskRepository instance;
+      * Поле объект для instance
+      */
+    public static TaskRepository instance;
 
-    /**Для получения Instance*/
+    /**
+      *Для получения Instance
+      */
     public static TaskRepository getInstance() {
         return instance;
     }
-
     /**
-     * Метод для добавления документа
-     */
+      * Метод для добавления документа
+      */
     public void addDoc(Document document) throws DocumentExistsException {
         verification(document);
         documentArrayList.add(document);
     }
 
-    /*Удаление*/
+    /**
+      *Метод для Удаления документа
+      */
     public void remove(Document document) throws DocumentExistsException {
         boolean exist = false;
         for (int i = 0; i < documentArrayList.size(); i++) {
@@ -45,8 +49,9 @@ public  class TaskRepository extends StorageList {
             throw new DocumentExistsException("Документ не найден");
         }
     }
-
-    /*Проверка существующего рег.номера*/
+    /*
+     *Проверка существующего рег.номера
+     */
     public void verification(Document document) throws DocumentExistsException {
         for (Document doc : documentArrayList) {
             if (doc.getRegNumDoc() == document.getRegNumDoc()) {
@@ -54,9 +59,9 @@ public  class TaskRepository extends StorageList {
             }
         }
     }
-
     /**
-     * Метод для storage list*/
+      * Метод для storage list
+      */
     ArrayList<Document> documentArrayList = new ArrayList<Document>(){
     };
 }
