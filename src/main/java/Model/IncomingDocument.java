@@ -4,14 +4,16 @@ import Factory.DocumentBuilder;
 import java.util.Date;
 import java.util.Objects;
 
-
 /**
- * Реализация подкласа  (Входящий документ)  c полями:
- * */
+  * Класс- Model.IncomingDocument
+  * 
+  */
 public class IncomingDocument extends Document {
 
-    /**
-     * Объявление полей*/
+   /**
+     * Объявление полей класса Model.IncomingDocument 
+     */
+      
     /*Поле для отправителя*/
     private String sender;
     /*Поле для адресата*/
@@ -20,9 +22,9 @@ public class IncomingDocument extends Document {
     private int IncNumber;
     /*Поле для даты регистрации*/
     private Date IncDate;
-
     /*конструктор по умолчанию*/
     private IncomingDocument() {
+    
     }
 
     /* Вызов метода для построения*/
@@ -35,11 +37,20 @@ public class IncomingDocument extends Document {
         return null;
     }
 
+    /**
+      * внутренний класс строитель входящего документа
+      */
     public class IncomingBuilder implements DocumentBuilder<IncomingBuilder> {
 
         private IncomingBuilder() {
         }
 
+       /**
+         * переопределение  текущих полей 
+         *
+         * @return  полей класса
+         */
+     
         @Override
         public IncomingBuilder setId(int id) {
            IncomingDocument.this.setId(id);
@@ -111,12 +122,12 @@ public class IncomingDocument extends Document {
         return addressee;
     }
 
-    /* доступ к номеру текущего документа*/
+    /* предоставление доступа к полю документа*/
     public int getIncNumber() {
         return IncNumber;
     }
 
-    /* доступ к дате текущего документа*/
+    /* предоставление доступа к полю дата документа*/
     public Date getIncDate() {
         return IncDate;
     }
