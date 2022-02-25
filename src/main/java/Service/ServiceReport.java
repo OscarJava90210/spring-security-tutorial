@@ -11,6 +11,7 @@ public class ServiceReport {
         report.append("ОТЧЕТ: ").append("\n");
         Document checkDocument;
         Collections.sort(documentsList);
+        //Вывод первого документа из коллекции
         checkDocument = documentsList.get(0);
         report.append("Автор - ").append(checkDocument.getAuthorOfDoc()).append(":\n");
         for (Document document : documentsList) {
