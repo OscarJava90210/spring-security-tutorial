@@ -6,6 +6,7 @@ import java.util.Date;
  * Интерфейс для генерации документов
  *
  * @param <T> поле builder
+ * @author AAM
  */
 public interface DocumentBuilder<T> {
 
