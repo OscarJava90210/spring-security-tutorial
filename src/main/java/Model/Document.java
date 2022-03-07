@@ -5,15 +5,15 @@ import java.text.SimpleDateFormat;
 import java.util.Objects;
 
 /**
- * Класс - Model.Document документ
+ * абстарктный класс - документ
+ *
+ * @author AAM
  */
 public abstract class   Document implements Comparable <Document>, Storable {
 
     /**
-      * Объявление полей класса Model.Document
-      *
-      */
-     
+     * Объявление полей класса Model.Document
+     */
     /*Поле для Id*/
     private int id;
     /*Поле для названия документа*/
@@ -29,9 +29,9 @@ public abstract class   Document implements Comparable <Document>, Storable {
     /*Поле с типом документа*/
     private String typeDoc;
 
+
     /**
-     * переопределение  текущих полей 
-     *
+     * переопределение  текущих полей
      * @return текущих полей
      */
     @Override
@@ -94,7 +94,6 @@ public abstract class   Document implements Comparable <Document>, Storable {
 
     /**
      * Метод cортировки документа по имени и автору
-     *
      * @return результат сортировки
      */
     public int compareTo(Document doc) {
@@ -120,7 +119,7 @@ public abstract class   Document implements Comparable <Document>, Storable {
     }
 
     /**
-     * Метод для вывода на консоль 
+     * Метод вывода на консоль
      * 
      */
     @Override
@@ -129,5 +128,6 @@ public abstract class   Document implements Comparable <Document>, Storable {
         return " Тип документа: " + getType() + " №" + getId() + "  от " + dateFormat.format(getDateRegDoc()) + ". Название документа: " + getNameDoc();
     }
 }
+
 
 
