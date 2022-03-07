@@ -1,11 +1,12 @@
 package Model;
 
 import Factory.DocumentBuilder;
-
 import java.util.Objects;
 
 /**
  * Реализация подкласа Задачи с полями
+ *
+ * @author AAM
  */
 public class TaskDocument extends Document {
 
@@ -68,6 +69,7 @@ public class TaskDocument extends Document {
 
     /**
      * переопределение  текущих полей класса для получения имени
+     * @return  полей класса
      */
     @Override
     public int getId() {
