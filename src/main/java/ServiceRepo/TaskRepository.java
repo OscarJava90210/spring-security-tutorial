@@ -5,13 +5,16 @@ import java.util.ArrayList;
 import Exception.DocumentExistsException;
 import Service.StorageList;
 
-/**Репозиторий для класса task
+/**
+ * Репозиторий для класса task
  *
  * @author AAM
  */
-public  class TaskRepository extends StorageList {
+public class TaskRepository extends StorageList {
 
-    /**Конструктор TaskRepository*/
+    /**
+     * Конструктор TaskRepository
+     */
     public TaskRepository() {
     }
 
@@ -20,7 +23,9 @@ public  class TaskRepository extends StorageList {
      */
     static TaskRepository instance;
 
-    /**Для получения Instance*/
+    /**
+     * Для получения Instance
+     */
     public static TaskRepository getInstance() {
         return instance;
     }
@@ -60,9 +65,8 @@ public  class TaskRepository extends StorageList {
     }
 
     /**
-     * storage list
+     * @method для storage list
      */
-    ArrayList<Document> documentArrayList = new ArrayList<Document>(){
+    ArrayList<Document> documentArrayList = new ArrayList<Document>() {
     };
-
 }
