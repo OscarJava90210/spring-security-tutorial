@@ -5,15 +5,15 @@ import Service.ServiceGenerator;
 import Service.ServiceList;
 
  /**
- * Класс для создания документа Задачи
- *
- * @return объект - документ задачи
- */
+   * Класс - фабрика заданий
+   * @return объект - документ задачи
+   * @author AAM
+   */
 public class TaskFactory implements DocumentFactory<TaskDocument> {
 
    /**
      * метод генерации документа Задачи
-     *
+     *{@inheritDoc}
      * @return получение документа Задачи
      */
     @Override
