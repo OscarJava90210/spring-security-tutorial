@@ -1,18 +1,23 @@
 package Factory;
 
+
 /**
  * Интерфейс с методами для хранения документов
+ *
+ * @author AAM
  */
 public interface Storable {
     /**
-      *
-      * @return рег.номер документа
-      */
+     * Метод-геттер
+     *
+     * @return рег.номер документа
+     */
      int getId();
     /**
-      * 
-      * @return имя документа
-      */
+     * Метод-геттер
+     *
+     * @return имя документа
+     */
      String getTableName();
 
 }
