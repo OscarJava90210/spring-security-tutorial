@@ -8,12 +8,12 @@ import Model.Document;
 import ServiceRepo.IncomingRepository;
 import ServiceRepo.OutgoingRepository;
 import ServiceRepo.TaskRepository;
-
-
 import java.util.ArrayList;
 import java.util.Arrays;
 /**
  * Абстрактный Класс-фабрика для созданий документов
+ *
+ * @author AAM
  */
 public abstract class StorageList {
     IncomingRepository incomingRepository = new IncomingRepository();

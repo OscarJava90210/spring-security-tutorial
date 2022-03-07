@@ -6,9 +6,17 @@ import Service.ServiceList;
 
 /**
  * Класс - фабрика заданий
+ *
+ * @author AAM
+ * @return объект - документ задачи
  */
 public class TaskFactory implements DocumentFactory<TaskDocument> {
-
+    /**
+      * метод генерации документа Задачи
+      * {@inheritDoc}
+      *
+      * @return получение документа Задачи
+      */
     @Override
     public TaskDocument createDocument() {
         return TaskDocument.newTaskBuilder()
@@ -20,7 +28,7 @@ public class TaskFactory implements DocumentFactory<TaskDocument> {
                 .setType("Задача")
                 .setId(ServiceGenerator.randomInt())
                 .setName(ServiceList.listName).toString()
-                .setText("генерация текста=" +ServiceGenerator.randomInt())
+                .setText("генерация текста=" + ServiceGenerator.randomInt())
                 .setNumber(ServiceGenerator.randomInt())
                 .setAuthor(ServiceList.workerList).toString()
                 .setDate(ServiceGenerator.randomDate())

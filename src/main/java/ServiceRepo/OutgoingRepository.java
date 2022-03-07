@@ -1,11 +1,16 @@
 package ServiceRepo;
 
 import Model.Document;
+
 import java.util.ArrayList;
+
 import Exception.DocumentExistsException;
 import Service.StorageList;
 
-/**Repository для класса outgoing
+/**
+ * Репозиторий для класса  outgoing
+ *
+ * @author AAM
  */
 public class OutgoingRepository extends StorageList {
     /**
@@ -18,21 +23,26 @@ public class OutgoingRepository extends StorageList {
     /**
      * Поле для  объекта для instance
      */
-     static OutgoingRepository instance;
-
-    /**Для получения Instance*/
-    public static OutgoingRepository getInstance() {
-        return instance;}
+    static OutgoingRepository instance;
 
     /**
-     * Метод для добавления документа
+     * Для получения Instance
+     */
+    public static OutgoingRepository getInstance() {
+        return instance;
+    }
+
+    /**
+     * @method для добавления документа в storage list
      */
     public void addDoc(Document document) throws DocumentExistsException {
         verification(document);
         documentArrayList.add(document);
     }
 
-    /*Удаление*/
+    /*
+     *@method Удаление storage list
+     * */
     public void remove(Document document) throws DocumentExistsException {
         boolean exist = false;
         for (int i = 0; i < documentArrayList.size(); i++) {
@@ -47,7 +57,6 @@ public class OutgoingRepository extends StorageList {
         }
     }
 
-
     /*Проверка существующего рег.номера*/
     public void verification(Document document) throws DocumentExistsException {
         for (Document doc : documentArrayList) {
@@ -58,8 +67,9 @@ public class OutgoingRepository extends StorageList {
     }
 
     /**
-     * Метод для storage list*/
-     ArrayList<Document> documentArrayList = new ArrayList<Document>(){
-     };
+     * @method для storage list
+     */
+    ArrayList<Document> documentArrayList = new ArrayList<Document>() {
+    };
 }
 

@@ -7,7 +7,9 @@ import Service.StorageList;
 
 import java.util.ArrayList;
 
-/*Класс для старта программы
+/** Класс для старта программы
+ *
+ * @author AAM
  */
 public class StartProject {
 

@@ -2,6 +2,8 @@ package Factory;
 
 /**
  * Интерфейс с методами для хранения документов
+ *
+ * @author AAM
  */
 public interface Storable {
     /**

@@ -7,6 +7,7 @@ import java.util.Objects;
 
 /**
  * Реализация подкласа  (Входящий документ)  c полями:
+ * @author AAM
  * */
 public class IncomingDocument extends Document {
 

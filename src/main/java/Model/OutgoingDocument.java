@@ -1,11 +1,12 @@
 package Model;
 
 import Factory.DocumentBuilder;
-
 import java.util.Objects;
 
 /**
- * Реализация подкласса (Исходящий документ) */
+ * Реализация подкласса (Исходящий документ)
+ * @author AAM
+ * */
 public class OutgoingDocument extends Document {
 
     /*Объявление полей класса Model.OutgoingDocument*/
@@ -40,7 +41,11 @@ public class OutgoingDocument extends Document {
         return Objects.hash(destination, deliveryMethod);
     }
 
-    /* переопределение  текущих полей класса */
+    /**
+     * переопределение  текущих полей
+     *
+     * @return  полей класса
+     **/
     @Override
     public int getId() {
         return super.getId();

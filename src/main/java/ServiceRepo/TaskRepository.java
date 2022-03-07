@@ -5,11 +5,16 @@ import java.util.ArrayList;
 import Exception.DocumentExistsException;
 import Service.StorageList;
 
-/**Repository для класса task
+/**
+ * Репозиторий для класса task
+ *
+ * @author AAM
  */
-public  class TaskRepository extends StorageList {
+public class TaskRepository extends StorageList {
 
-    /**Конструктор TaskRepository*/
+    /**
+     * Конструктор TaskRepository
+     */
     public TaskRepository() {
     }
 
@@ -18,20 +23,24 @@ public  class TaskRepository extends StorageList {
      */
     static TaskRepository instance;
 
-    /**Для получения Instance*/
+    /**
+     * Для получения Instance
+     */
     public static TaskRepository getInstance() {
         return instance;
     }
 
     /**
-     * Метод для добавления документа
+     * @method для добавления документа в storage list
      */
     public void addDoc(Document document) throws DocumentExistsException {
         verification(document);
         documentArrayList.add(document);
     }
 
-    /*Удаление*/
+    /*
+     *@method Удаление storage list
+     * */
     public void remove(Document document) throws DocumentExistsException {
         boolean exist = false;
         for (int i = 0; i < documentArrayList.size(); i++) {
@@ -50,13 +59,14 @@ public  class TaskRepository extends StorageList {
     public void verification(Document document) throws DocumentExistsException {
         for (Document doc : documentArrayList) {
             if (doc.getRegNumDoc() == document.getRegNumDoc()) {
-                throw new DocumentExistsException("Рег. номер уже существует");
+                throw new DocumentExistsException("Регистрационный номер уже существует");
             }
         }
     }
 
     /**
-     * Метод для storage list*/
-    ArrayList<Document> documentArrayList = new ArrayList<Document>(){
+     * @method для storage list
+     */
+    ArrayList<Document> documentArrayList = new ArrayList<Document>() {
     };
 }

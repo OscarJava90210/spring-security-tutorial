@@ -7,6 +7,8 @@ import java.util.Objects;
 
 /**
  * абстарктный класс - документ
+ *
+ * @author AAM
  */
 public abstract class   Document implements Comparable <Document>, Storable {
 
@@ -31,6 +33,7 @@ public abstract class   Document implements Comparable <Document>, Storable {
 
     /**
      * переопределение  текущих полей
+     * @return текущих полей
      */
     @Override
     public int getId() {
@@ -92,6 +95,7 @@ public abstract class   Document implements Comparable <Document>, Storable {
 
     /**
      * Метод cортировки документа по имени и автору
+     * @return результат сортировки
      */
     public int compareTo(Document doc) {
         int result = this.authorOfDoc.compareTo(getAuthorOfDoc());
