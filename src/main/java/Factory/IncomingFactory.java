@@ -7,14 +7,14 @@ import static Service.ServiceGenerator.randomDate;
 
 /**
   * Класс - фабрика входящих документов
-  *
   * @return объект - входящий документ
- */
+  * @author AAM
+  */
 public class IncomingFactory implements DocumentFactory< IncomingDocument > {
    
    /**
      * метод генерации входящего документа
-     *
+     *{@inheritDoc}
      * @return получение входящего документа
      */
    @Override
@@ -27,7 +27,7 @@ public class IncomingFactory implements DocumentFactory< IncomingDocument > {
                         .setType("Входящий")
                         .setId(ServiceGenerator.randomInt())
                         .setName(ServiceList.listName).toString())
-                                .setText("генерация текста=" + ServiceGenerator.randomInt())
+                        .setText("генерация текста=" + ServiceGenerator.randomInt())
                         .setNumber(ServiceGenerator.randomInt())
                         .setAuthor(ServiceList.listName).toString()
                         .setDate(randomDate())
