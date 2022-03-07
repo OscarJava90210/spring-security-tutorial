@@ -5,9 +5,10 @@ import java.util.ArrayList;
 import Exception.DocumentExistsException;
 import Service.StorageList;
 
-/**
-  *Repository для класса task
-  */
+/**Репозиторий для класса task
+ *
+ * @author AAM
+ */
 public  class TaskRepository extends StorageList {
 
     /**Конструктор TaskRepository*/
@@ -15,27 +16,26 @@ public  class TaskRepository extends StorageList {
     }
 
     /**
-      * Поле объект для instance
-      */
-    public static TaskRepository instance;
+     * Поле объект для instance
+     */
+    static TaskRepository instance;
 
-    /**
-      *Для получения Instance
-      */
+    /**Для получения Instance*/
     public static TaskRepository getInstance() {
         return instance;
     }
+
     /**
-      * Метод для добавления документа
-      */
+     * @method для добавления документа в storage list
+     */
     public void addDoc(Document document) throws DocumentExistsException {
         verification(document);
         documentArrayList.add(document);
     }
 
-    /**
-      *Метод для Удаления документа
-      */
+    /*
+     *@method Удаление storage list
+     * */
     public void remove(Document document) throws DocumentExistsException {
         boolean exist = false;
         for (int i = 0; i < documentArrayList.size(); i++) {
@@ -49,19 +49,20 @@ public  class TaskRepository extends StorageList {
             throw new DocumentExistsException("Документ не найден");
         }
     }
-    /*
-     *Проверка существующего рег.номера
-     */
+
+    /*Проверка существующего рег.номера*/
     public void verification(Document document) throws DocumentExistsException {
         for (Document doc : documentArrayList) {
             if (doc.getRegNumDoc() == document.getRegNumDoc()) {
-                throw new DocumentExistsException("Рег. номер уже существует");
+                throw new DocumentExistsException("Регистрационный номер уже существует");
             }
         }
     }
+
     /**
-      * Метод для storage list
-      */
+     * storage list
+     */
     ArrayList<Document> documentArrayList = new ArrayList<Document>(){
     };
+
 }
