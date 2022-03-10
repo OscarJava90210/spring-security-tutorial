@@ -5,8 +5,6 @@ package Factory;
  *
  * @author AAM
  */
-
-
 public interface DocumentFactory<T> {
     /**
      * @param <T> фабрика создания определенного типа документа

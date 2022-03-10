@@ -5,7 +5,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * Реализация подкласса Сотрудник
- *
  * @author AAM
  */
 @XmlRootElement(name = "Person")

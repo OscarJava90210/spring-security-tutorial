@@ -2,7 +2,6 @@ package Staff;
 /**
  * Реализация класса персонал
  * @return id -> name
- *
  * @author AAM
  * */
 public abstract class Staff {

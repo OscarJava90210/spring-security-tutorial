@@ -15,7 +15,6 @@ import java.util.SortedSet;
 import java.util.logging.Logger;
 
 /* Класс для порядкового вывода в формате JSON
-*
 * @author AAM
 * */
 public class ReportJSON {

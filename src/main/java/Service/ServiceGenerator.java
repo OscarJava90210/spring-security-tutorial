@@ -15,7 +15,7 @@ public class ServiceGenerator {
     public static Random random = new Random();
 
     /*Генерация числа*/
-    public static Date randomInt() {
+    public static int randomInt() {
         return new Date(System.currentTimeMillis() - ThreadLocalRandom.current().nextInt(10 * 1000));
     }
 

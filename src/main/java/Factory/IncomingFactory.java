@@ -20,7 +20,7 @@ public class IncomingFactory implements DocumentFactory<IncomingDocument> {
     public IncomingDocument createDocument() {
         return IncomingDocument.newIncomingBuilder()
                 .setIncDate(randomDate())
-                .setIncNum(ServiceGenerator.randomInt())
+                .setIncNumber(ServiceGenerator.randomInt())
                 .setSender("Отправитель")
                 .setAddressee("Адресат")
                 .setType("Входящий")

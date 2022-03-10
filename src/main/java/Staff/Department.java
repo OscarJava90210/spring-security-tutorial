@@ -2,7 +2,6 @@ package Staff;
 
 /**
  * Реализация подкласса Персонал
- *
  * @author AAM
  * */
 public class Department extends Staff{

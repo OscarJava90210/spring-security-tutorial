@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="639f3c64-8426-4c8f-aa16-6e66e6983c2c" name="Changes" comment="first">
+    <list default="true" id="639f3c64-8426-4c8f-aa16-6e66e6983c2c" name="Changes" comment="sixth attemt to send Task2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/DocumentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/DocumentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/IncomingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/IncomingFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Document.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/OutgoingDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/OutgoingDocument.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/TaskDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/TaskDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Service/ParserJAXB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Service/ParserJAXB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/ServiceRepo/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/ServiceRepo/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/ServiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/ServiceGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../app-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -94,6 +96,9 @@
       <workItem from="1645382084843" duration="1191000" />
       <workItem from="1646146873594" duration="34563000" />
       <workItem from="1646929769812" duration="1022000" />
+      <workItem from="1646931864525" duration="1704000" />
+      <workItem from="1647060038682" duration="2336000" />
+      <workItem from="1647274652166" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1645458002777</created>
@@ -116,7 +121,35 @@
       <option name="project" value="LOCAL" />
       <updated>1646652210630</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fifth attemt to send Task2">
+      <created>1646931982768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646931982768</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fifth attemt to send Task2">
+      <created>1646931997759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646931997759</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fifth attemt to send Task2">
+      <created>1646932194852</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646932194852</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sixth attemt to send Task2">
+      <created>1647060253636</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647060253636</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +184,9 @@
     </ignored-roots>
     <MESSAGE value="second" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="fifth attemt to send Task2" />
+    <MESSAGE value="sixth attemt to send Task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="sixth attemt to send Task2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

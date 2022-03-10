@@ -1,7 +1,6 @@
 package Model;
 
 import Factory.DocumentBuilder;
-import Staff.Person;
 
 import java.util.Objects;
 
@@ -74,7 +73,7 @@ public class OutgoingDocument extends Document {
     }
 
     @Override
-    public Person getAuthorOfDoc() {
+    public String getAuthorOfDoc() {
         return super.getAuthorOfDoc();
     }
 

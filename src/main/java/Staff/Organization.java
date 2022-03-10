@@ -1,7 +1,6 @@
 package Staff;
 /**
  * Реализация подкласса  Организация
- *
  * @author AAM
  * */
 public class Organization extends Staff{

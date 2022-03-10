@@ -7,7 +7,6 @@ import java.util.ArrayList;
 
 /*Класс для маршалинга объекта Person
  * @return employees
- *
  * @author AAM
  * */
 @XmlRootElement(name = "Employees")

@@ -1,7 +1,6 @@
 package Model;
 
 import Factory.Storable;
-import Staff.Person;
 
 import java.text.SimpleDateFormat;
 import java.util.Objects;
@@ -77,7 +76,7 @@ public abstract class   Document implements Comparable <Document>, Storable {
         this.dateRegDoc = dateRegDoc;
     }
 
-    public Person getAuthorOfDoc() {
+    public String getAuthorOfDoc() {
         return authorOfDoc;
     }
 

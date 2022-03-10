@@ -7,7 +7,6 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 /*Класс для генерации объекта Person
- *
  * @author AAM
  * */
 public class Repository {
