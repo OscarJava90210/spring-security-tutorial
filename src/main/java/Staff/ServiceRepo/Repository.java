@@ -43,10 +43,10 @@ public class Repository {
 
         if (report.size() != 0) {
             for (Map.Entry<Person, SortedSet<Document>> link : report.entrySet()) {
-                logger.info(link.getKey() + link.getValue().toString().replaceAll("\\[|,\\s", "\n\t").replaceAll("\\]", ""));
+                logger.info(link.getKey() + link.getValue().toString().replaceAll("\\(|,\\s", "\n\t").replaceAll("\\)", ""));
             }
         } else {
-            logger.info("Документ еще не создан");
+            logger.info("Нет данных");
         }
     }
 }

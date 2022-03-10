@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="639f3c64-8426-4c8f-aa16-6e66e6983c2c" name="Changes" comment="first">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/OutgoingDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/OutgoingDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/TaskDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/TaskDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Service/ParserJAXB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/Service/ParserJAXB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/ServiceRepo/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Staff/ServiceRepo/Repository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24vNvsuJPKCaG66JQmIltcax342" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../app-master" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Асхат\Desktop\My_project\src\main\java\Staff\Service" />
+      <recent name="C:\Users\Асхат\Desktop\My_project\src\main\java\Staff" />
+      <recent name="C:\Users\Асхат\Desktop\My_project\src\main\java\Staff\Storage" />
+      <recent name="C:\Users\Асхат\Desktop\My_project\src\main\java\Staff\Repo" />
+      <recent name="C:\Users\Асхат\Desktop\My_project" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Staff.Start.Starter" />
+      <module name="My_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Staff.Start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Starter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Асхат\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="639f3c64-8426-4c8f-aa16-6e66e6983c2c" name="Changes" comment="" />
+      <created>1644507335779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644507335779</updated>
+      <workItem from="1644507337109" duration="4336000" />
+      <workItem from="1645285917428" duration="4461000" />
+      <workItem from="1645290537091" duration="606000" />
+      <workItem from="1645457867430" duration="965000" />
+      <workItem from="1645600056433" duration="17246000" />
+      <workItem from="1645554163098" duration="606000" />
+      <workItem from="1645382001998" duration="52000" />
+      <workItem from="1645382084843" duration="1191000" />
+      <workItem from="1646146873594" duration="34563000" />
+      <workItem from="1646929769812" duration="1022000" />
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1645458002777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645458002777</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second">
+      <created>1645458204582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645458204582</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first">
+      <created>1646652210630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646652210630</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Bit/Task2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="second" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

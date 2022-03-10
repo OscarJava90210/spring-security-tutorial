@@ -1,6 +1,8 @@
 package Model;
 
 import Factory.DocumentBuilder;
+import Staff.Person;
+
 import java.util.Objects;
 
 /**
@@ -102,7 +104,7 @@ public class TaskDocument extends Document {
     }
 
     @Override
-    public String getAuthorOfDoc() {
+    public Person getAuthorOfDoc() {
         return super.getAuthorOfDoc();
     }
 

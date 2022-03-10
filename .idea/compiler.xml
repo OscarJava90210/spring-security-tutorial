@@ -10,6 +10,7 @@
         <module name="my_practice" />
         <module name="My_project_3.java-Task_1" />
         <module name="My_Practice" />
+        <module name="My_project — копия" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
