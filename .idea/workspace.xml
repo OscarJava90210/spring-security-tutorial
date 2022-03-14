@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="639f3c64-8426-4c8f-aa16-6e66e6983c2c" name="Changes" comment="sixth attemt to send Task2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/DocumentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/DocumentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/IncomingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Factory/IncomingFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/OutgoingDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/OutgoingDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/TaskDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/TaskDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/ServiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/ServiceGenerator.java" afterDir="false" />
-    </list>
+    <list default="true" id="639f3c64-8426-4c8f-aa16-6e66e6983c2c" name="Changes" comment="sixth attemt to send Task2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +90,7 @@
       <workItem from="1646929769812" duration="1022000" />
       <workItem from="1646931864525" duration="1704000" />
       <workItem from="1647060038682" duration="2336000" />
-      <workItem from="1647274652166" duration="631000" />
+      <workItem from="1647274652166" duration="1224000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1645458002777</created>
@@ -149,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647060253636</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sixth attemt to send Task2">
+      <created>1647275880748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647275880749</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +184,7 @@
     <MESSAGE value="second" />
     <MESSAGE value="first" />
     <MESSAGE value="fifth attemt to send Task2" />
+    <MESSAGE value="another one attemt to send Task2" />
     <MESSAGE value="sixth attemt to send Task2" />
     <option name="LAST_COMMIT_MESSAGE" value="sixth attemt to send Task2" />
   </component>
