@@ -1,20 +1,26 @@
 package Staff;
+
 /**
  * Реализация подкласса  Организация
+ *
  * @author AAM
- * */
-public class Organization extends Staff{
+ */
+public class Organization extends Staff {
     /**
-     * Объявление полей
+     * Полное наименование
      */
-
-    /*Полное наименование */
     private String fullName;
-    /*Краткое наименование*/
+    /**
+     * Краткое наименование
+     */
     private String shortName;
-    /*Руководитель*/
+    /**
+     * Руководитель
+     */
     private String chief;
-    /*Контактные телефоны*/
+    /**
+     * Контактные телефоны
+     */
     private String contact;
 
     @Override
@@ -30,24 +36,31 @@ public class Organization extends Staff{
     public String getFullName() {
         return fullName;
     }
+
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
+
     public String getShortName() {
         return shortName;
     }
+
     public void setShortName(String shortName) {
         this.shortName = shortName;
     }
+
     public String getChief() {
         return chief;
     }
+
     public void setChief(String chief) {
         this.chief = chief;
     }
+
     public String getContact() {
         return contact;
     }
+
     public void setContact(String contactPhoneNumbers) {
         this.contact = contactPhoneNumbers;
     }

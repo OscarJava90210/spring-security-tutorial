@@ -6,24 +6,24 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.util.*;
 
-/*Класс для генерации объекта Person
- * @author AAM
- * */
+/**
+  * Класс репозиторий для объекта Person
+  *
+  * @author AAM
+  **/
 public class Repository {
 
     private static Logger logger = LoggerFactory.getLogger(Repository.class);
 
-    public static SortedSet<Document> STORAGE = new TreeSet<Document>();
+    public static SortedSet<Document> Storage = new TreeSet<Document>();
 
     public static SortedMap<Person, SortedSet<Document>> report = new TreeMap<Person, SortedSet<Document>>();
-
-
     /*
      *@method Формирование отчета
      */
     private static void formReport() {
 
-        Document[] StorageList = new Document[0];
+        List <Document> StorageList = new ArrayList<>();
 
         for (Document document : StorageList) {
             if (!report.containsKey(document.getAuthorOfDoc())) {
@@ -32,7 +32,6 @@ public class Repository {
             report.get(document.getAuthorOfDoc()).add(document);
         }
     }
-
     /*
      * @method Вывод отчета
      */

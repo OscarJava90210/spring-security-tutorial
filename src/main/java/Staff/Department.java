@@ -2,20 +2,25 @@ package Staff;
 
 /**
  * Реализация подкласса Персонал
+ *
  * @author AAM
- * */
-public class Department extends Staff{
+ */
+public class Department extends Staff {
     /**
-     * Объявление полей
+     * Полное наименование
      */
-
-    /*Полное наименование */
     private String fullName;
-    /*Краткое наименование*/
+    /**
+     * Краткое наименование
+     */
     private String shortName;
-    /*Руководитель*/
+    /**
+     * Руководитель
+     */
     private String chief;
-    /*Контактные телефоны*/
+    /**
+     * Контактные телефоны
+     */
     private String contact;
 
     @Override
@@ -23,7 +28,6 @@ public class Department extends Staff{
         return "Подразделение - " + this.fullName + ". Руководитель - " + this.chief;
     }
 
-    @Override
     public int compareTo(Person o) {
         return 0;
     }
@@ -31,24 +35,31 @@ public class Department extends Staff{
     public String getFullName() {
         return fullName;
     }
+
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }
+
     public String getShortName() {
         return shortName;
     }
+
     public void setShortName(String shortName) {
         this.shortName = shortName;
     }
+
     public String getChief() {
         return chief;
     }
+
     public void setChief(String chief) {
         this.chief = chief;
     }
+
     public String getContact() {
         return contact;
     }
+
     public void setContact(String contact) {
         this.contact = contact;
     }

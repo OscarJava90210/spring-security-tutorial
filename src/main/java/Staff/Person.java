@@ -5,21 +5,27 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * Реализация подкласса Сотрудник
+ *
  * @author AAM
  */
 @XmlRootElement(name = "Person")
 public class Person extends Staff implements Comparable<Person> {
-    /**
-     * Объявление полей
-     */
 
-    /*Поле Имя*/
+    /**
+     * Имя
+     */
     private String firstName;
-    /*Поле Отчество*/
+    /**
+     * Отчество
+     */
     private String middleName;
-    /*Поле Фамилия*/
+    /**
+     * Фамилия
+     */
     private String lastName;
-    /*Поле должность*/
+    /**
+     * Должность
+     */
     private String position;
 
     @Override
@@ -27,7 +33,7 @@ public class Person extends Staff implements Comparable<Person> {
         return "" + this.firstName + " " + this.middleName + " " + this.lastName;
     }
 
-    @XmlElement
+    @XmlElement(name = "name")
     public String getFirstName() {
         return firstName;
     }
@@ -35,7 +41,8 @@ public class Person extends Staff implements Comparable<Person> {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-    @XmlElement
+
+    @XmlElement (name = "secondName")
     public String getMiddleName() {
         return middleName;
     }
@@ -43,7 +50,8 @@ public class Person extends Staff implements Comparable<Person> {
     public void setMiddleName(String middleName) {
         this.middleName = middleName;
     }
-    @XmlElement
+
+    @XmlElement (name = "surname")
     public String getLastName() {
         return lastName;
     }
@@ -52,7 +60,14 @@ public class Person extends Staff implements Comparable<Person> {
         this.lastName = lastName;
     }
 
-    @Override
+    @XmlElement (name = "position")
+    public String getPosition(){
+        return  position;
+    }
+    public void setPosition(String position){
+        this.position = position;
+    }
+
     public int compareTo(Person o) {
         return 0;
     }
