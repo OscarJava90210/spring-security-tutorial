@@ -2,7 +2,6 @@ package Staff;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-
 /**
  * Реализация подкласса Сотрудник
  *
@@ -10,7 +9,6 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @XmlRootElement(name = "Person")
 public class Person extends Staff implements Comparable<Person> {
-
     /**
      * Имя
      */
