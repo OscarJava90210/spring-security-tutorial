@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="639f3c64-8426-4c8f-aa16-6e66e6983c2c" name="Changes" comment="seventh attemt to send Task2">
-      <change afterPath="$PROJECT_DIR$/.idea/My_project — копия — копия.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/My_project_____Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fileTemplates/internal/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/staff/Model/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/OutgoingDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/OutgoingDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/ServiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/ServiceGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/ServiceReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/ServiceReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/StorageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/StorageList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServiceRepo/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServiceRepo/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Model/Organization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Service/ParserJAXB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Service/ParserJAXB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Service/PersonListHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Service/PersonListHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/ServiceRepo/PersonsListHolderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/ServiceRepo/PersonsListHolderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/ServiceRepo/Repository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Model/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/Start/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Start/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Staff/resources/persons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/resources/persons.xml" afterDir="false" />
-    </list>
+    <list default="true" id="639f3c64-8426-4c8f-aa16-6e66e6983c2c" name="Changes" comment="eight attemt to send Task2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -278,7 +253,7 @@
       <workItem from="1648310605013" duration="20508000" />
       <workItem from="1648479806741" duration="10049000" />
       <workItem from="1648658770624" duration="680000" />
-      <workItem from="1648659517741" duration="31606000" />
+      <workItem from="1648659517741" duration="31989000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1645458002777</created>
@@ -364,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648481152577</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="eight attemt to send Task2">
+      <created>1648927747784</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648927747784</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +385,8 @@
     <MESSAGE value="another one attemt to send Task2" />
     <MESSAGE value="sixth attemt to send Task2" />
     <MESSAGE value="seventh attemt to send Task2" />
-    <option name="LAST_COMMIT_MESSAGE" value="seventh attemt to send Task2" />
+    <MESSAGE value="eight attemt to send Task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="eight attemt to send Task2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
