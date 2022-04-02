@@ -6,7 +6,7 @@ import staff.Model.Person;
  * Реализация Buildet для класса Person
  *
  * @author AAM
- */
+ **/
 public class PersonBuilder {
 
     private String firstName;
@@ -33,7 +33,6 @@ public class PersonBuilder {
         this.position = position;
         return this;
     }
-
 
     public Person createPerson() {
         return new Person(firstName, middleName, lastName, position);

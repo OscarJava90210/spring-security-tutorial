@@ -3,10 +3,10 @@ package staff.repo;
 import staff.Model.Department;
 
 /**
- * Реализация Buildet для класса Department
+ * Реализация Buildet для класса Организация
  *
  * @author AAM
- */
+ **/
 public class DepartmentBuilder {
     private String fullName;
     private String shortName;

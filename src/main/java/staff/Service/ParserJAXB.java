@@ -21,7 +21,7 @@ public class ParserJAXB {
         try {
             JAXBContext context = JAXBContext.newInstance(objectClass);
             Unmarshaller unmarshaller = context.createUnmarshaller();
-            return (T) unmarshaller.unmarshal(file);
+            return (T)  unmarshaller.unmarshal(file);
         } catch (JAXBException e) {
             logger.info(e.getMessage());
         }

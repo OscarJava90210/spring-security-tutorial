@@ -6,7 +6,7 @@ import staff.Model.Organization;
  * Реализация Buildet для класса Organization
  *
  * @author AAM
- */
+ **/
 public class OrganizationBuilder {
     private String fullName;
     private String shortName;
@@ -36,4 +36,5 @@ public class OrganizationBuilder {
     public Organization createOrganization() {
         return new Organization(fullName, shortName, chief, contact);
     }
+
 }

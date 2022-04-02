@@ -8,7 +8,7 @@ import java.text.MessageFormat;
  * Реализация подкласса Сотрудник
  *
  * @author AAM
- */
+ **/
 @XmlRootElement(name = "Person")
 public class Person extends Staff implements Comparable<Person> {
     /**
@@ -76,7 +76,7 @@ public class Person extends Staff implements Comparable<Person> {
 
     /**
      * Вывод текста
-     */
+     **/
     String result = MessageFormat.format(
             new StringBuilder().
                     append("Имя:  - ").

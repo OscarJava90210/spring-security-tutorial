@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="639f3c64-8426-4c8f-aa16-6e66e6983c2c" name="Changes" comment="eight attemt to send Task2" />
+    <list default="true" id="639f3c64-8426-4c8f-aa16-6e66e6983c2c" name="Changes" comment="ServiceReport">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Model/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Model/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Model/Organization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Model/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Model/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Service/ParserJAXB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Service/ParserJAXB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Service/PersonListHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Service/PersonListHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/ServiceRepo/PersonsListHolderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/ServiceRepo/PersonsListHolderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/Start/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/Start/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/repo/DepartmentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/repo/DepartmentBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/repo/OrganizationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/repo/OrganizationBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/repo/PersonBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/repo/PersonBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/resources/persons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/resources/persons.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +267,7 @@
       <workItem from="1648310605013" duration="20508000" />
       <workItem from="1648479806741" duration="10049000" />
       <workItem from="1648658770624" duration="680000" />
-      <workItem from="1648659517741" duration="31989000" />
+      <workItem from="1648659517741" duration="35178000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1645458002777</created>
@@ -346,7 +360,28 @@
       <option name="project" value="LOCAL" />
       <updated>1648927747784</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="builder">
+      <created>1648927945321</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648927945321</updated>
+    </task>
+    <task id="LOCAL-00015" summary="StorageList">
+      <created>1648929660734</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648929660734</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ServiceReport">
+      <created>1648930047797</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648930047797</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +421,10 @@
     <MESSAGE value="sixth attemt to send Task2" />
     <MESSAGE value="seventh attemt to send Task2" />
     <MESSAGE value="eight attemt to send Task2" />
-    <option name="LAST_COMMIT_MESSAGE" value="eight attemt to send Task2" />
+    <MESSAGE value="builder" />
+    <MESSAGE value="StorageList" />
+    <MESSAGE value="ServiceReport" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServiceReport" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -6,7 +6,7 @@ import java.text.MessageFormat;
  * Реализация подкласса  Организация
  *
  * @author AAM
- */
+ **/
 public class Organization extends Staff {
     /**
      * Полное наименование
