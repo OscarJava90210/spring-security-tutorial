@@ -1,7 +1,6 @@
 package Model;
 
 import Factory.DocumentBuilder;
-
 import java.util.Objects;
 
 /**

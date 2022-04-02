@@ -21,7 +21,7 @@ public class TaskRepository extends StorageList {
     /**
      * Поле объект для instance
      */
-    static TaskRepository instance;
+    private static TaskRepository instance = new TaskRepository();
 
     /**
      * Для получения Instance

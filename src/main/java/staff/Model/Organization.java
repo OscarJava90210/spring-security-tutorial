@@ -1,4 +1,7 @@
-package Staff;
+package staff.Model;
+
+import java.text.MessageFormat;
+
 /**
  * Реализация подкласса  Организация
  *
@@ -21,16 +24,6 @@ public class Organization extends Staff {
      * Контактные телефоны
      */
     private String contact;
-
-    @Override
-    public String toString() {
-        return "Организация - " + this.fullName + ". Руководитель - " + this.chief;
-    }
-
-    @Override
-    public int compareTo(Person o) {
-        return 0;
-    }
 
     public String getFullName() {
         return fullName;
@@ -63,4 +56,25 @@ public class Organization extends Staff {
     public void setContact(String contactPhoneNumbers) {
         this.contact = contactPhoneNumbers;
     }
+
+    @Override
+    public int compareTo(Person o) {
+        return 0;
+    }
+
+    public Organization(String fullName, String shortName, String chief, String contact) {
+        this.fullName = fullName;
+        this.shortName = shortName;
+        this.chief = chief;
+        this.contact = contact;
+    }
+
+    /**
+     * Вывод текста
+     */
+    String result = MessageFormat.format(" Организация:  - ",
+            new StringBuilder().
+                    append(getFullName()).
+                    append(". Руководитель:  - ").
+                    append(getChief()).toString());
 }

@@ -27,7 +27,7 @@ public abstract class StorageList {
                 new TaskFactory()
 
         ));
-        public static void generater(int countDoc){
+        public static void generater(int countDoc) {
             StorageList storageList = StorageList.getInstance();
             Document document = null;
             for (int i = 0; i < count; i++) {
@@ -35,6 +35,9 @@ public abstract class StorageList {
                 storageList.addDoc(document);
             }
         }
+    }
+
+    private static StorageList getInstance() {
     }
 }
 

@@ -1,13 +1,15 @@
 package Service;
 
 import Model.Document;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
-/* Класс для порядкового вывода информации на консоль
-*
-* @author AAM
-**/
+/**
+ * Класс для порядкового вывода информации на консоль
+ *
+ * @author AAM
+ **/
 public class ServiceReport {
     public static StringBuffer report(ArrayList<Document> documentsList) {
         StringBuffer report = new StringBuffer();

@@ -1,7 +1,9 @@
-package Staff;
+package staff.Model;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.text.MessageFormat;
+
 /**
  * Реализация подкласса Сотрудник
  *
@@ -25,11 +27,6 @@ public class Person extends Staff implements Comparable<Person> {
      * Должность
      */
     private String position;
-
-    @Override
-    public String toString() {
-        return "" + this.firstName + " " + this.middleName + " " + this.lastName;
-    }
 
     @XmlElement(name = "name")
     public String getFirstName() {
@@ -66,7 +63,26 @@ public class Person extends Staff implements Comparable<Person> {
         this.position = position;
     }
 
+    public Person(String firstName, String middleName, String lastName, String position) {
+        this.firstName = firstName;
+        this.middleName = middleName;
+        this.lastName = lastName;
+        this.position = position;
+    }
+
     public int compareTo(Person o) {
         return 0;
     }
+
+    /**
+     * Вывод текста
+     */
+    String result = MessageFormat.format(
+            new StringBuilder().
+                    append("Имя:  - ").
+                    append(getFirstName()).
+                    append("Фамилия: - ").
+                    append(getMiddleName()).
+                    append("Должность: - ").
+                    append(getPosition()).toString());
 }
