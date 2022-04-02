@@ -38,6 +38,6 @@ public abstract class StorageList {
     }
 
     private static StorageList getInstance() {
-    }
+    }}
 }
 
