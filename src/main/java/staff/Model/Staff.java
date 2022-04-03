@@ -14,8 +14,8 @@ public abstract class Staff {
      * Вывод текста
      */
     String result = MessageFormat.format(
-            new StringBuilder().
-                    append("Элемент организационной структуры: - ").
+             "Элемент организационной структуры: - ",
+                    new StringBuilder().
                     append(getId()).
                     toString());
 

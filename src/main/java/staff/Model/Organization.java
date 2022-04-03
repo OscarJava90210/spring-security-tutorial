@@ -74,6 +74,6 @@ public class Organization extends Staff {
     String result = MessageFormat.format(" Организация:  - ",
             new StringBuilder().
                     append(getFullName()).
-                    append(". Руководитель:  - ").
+                    append(". Руководитель: - ").
                     append(getChief()).toString());
 }

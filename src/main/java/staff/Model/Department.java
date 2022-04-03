@@ -55,7 +55,8 @@ public class Department extends Staff {
      * Вывод текста
      */
     String result = MessageFormat.
-            format("Подразделение:  - ", new StringBuilder().
+            format("Подразделение:  - ",
+                    new StringBuilder().
                     append(getFullName()).
                     append(". Руководитель:  - ").
                     append(getChief()).

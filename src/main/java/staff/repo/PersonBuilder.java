@@ -1,6 +1,6 @@
 package staff.repo;
 
-import staff.Model.Person ;
+import staff.Model.Person;
 
 /**
  * Реализация Builder для класса Person

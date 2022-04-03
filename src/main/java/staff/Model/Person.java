@@ -76,9 +76,8 @@ public class Person extends Staff implements Comparable<Person> {
     /**
      * Вывод текста
      */
-    String result = MessageFormat.format(
-            new StringBuilder().
-                    append("Имя: - ").
+    String result = MessageFormat.format("Имя: - ",
+                    new StringBuilder().
                     append(getFirstName()).
                     append("Фамилия:- ").
                     append(getMiddleName()).
