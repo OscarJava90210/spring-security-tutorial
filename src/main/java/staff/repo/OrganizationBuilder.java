@@ -1,6 +1,6 @@
 package staff.repo;
 
-import staff.Model.Organization ;
+import staff.Model.Organization;
 
 /**
  * Реализация Builder для класса Organization

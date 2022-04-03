@@ -10,7 +10,6 @@ import java.text.MessageFormat ;
 public abstract class Staff {
     /*Поле Id*/
     private int id;
-
     /**
      * Вывод текста
      */

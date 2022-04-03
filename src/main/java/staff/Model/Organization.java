@@ -1,6 +1,6 @@
 package staff.Model;
 
-import java.text.MessageFormat;
+import java.text.MessageFormat ;
 
 /**
  * Реализация подкласса  Организация
