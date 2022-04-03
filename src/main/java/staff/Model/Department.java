@@ -52,7 +52,6 @@ public class Department extends Staff {
     public int compareTo(Person o) {
         return 0;
     }
-
     /**
      * Вывод текста
      */
