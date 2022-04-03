@@ -73,7 +73,6 @@ public class Person extends Staff implements Comparable<Person> {
     public int compareTo(Person o) {
         return 0;
     }
-
     /**
      * Вывод текста
      */

@@ -47,7 +47,6 @@ public class Department extends Staff {
         this.chief = chief;
         this.contact = contact;
     }
-
     @Override
     public int compareTo(Person o) {
         return 0;

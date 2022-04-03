@@ -1,9 +1,9 @@
 package staff.ServiceRepo;
 
+import java.io.File;
 import staff.Service.ParserJAXB;
 import staff.Service.PersonListHolder;
 import javax.xml.bind.JAXBException;
-import java.io.File;
 
 /**
  * Класс репозиторий для объекта Person
