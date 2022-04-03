@@ -1,6 +1,6 @@
 package staff.Service;
 
-import staff.Model.Person ;
+import staff.Model.Person;
 import java.util.ArrayList;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
