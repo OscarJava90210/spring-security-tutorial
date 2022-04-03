@@ -76,12 +76,12 @@ public class Person extends Staff implements Comparable<Person> {
 
     /**
      * Вывод текста
-     **/
+     */
     String result = MessageFormat.format(
             new StringBuilder().
-                    append("Имя:  - ").
+                    append("Имя: - ").
                     append(getFirstName()).
-                    append("Фамилия: - ").
+                    append("Фамилия:- ").
                     append(getMiddleName()).
                     append("Должность: - ").
                     append(getPosition()).toString());

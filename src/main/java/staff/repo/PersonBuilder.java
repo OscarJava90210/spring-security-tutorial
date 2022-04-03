@@ -3,7 +3,7 @@ package staff.repo;
 import staff.Model.Person;
 
 /**
- * Реализация Buildet для класса Person
+ * Реализация Builder для класса Person
  *
  * @author AAM
  **/

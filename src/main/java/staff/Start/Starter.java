@@ -17,5 +17,4 @@ public class Starter {
         String path =  personsFile.toString();
         PersonListHolder listOfEmployees = PersonsListHolderRepository.getListOfEmployees(personsFile);
     }
-
 }

@@ -68,7 +68,6 @@ public class Organization extends Staff {
         this.chief = chief;
         this.contact = contact;
     }
-
     /**
      * Вывод текста
      */

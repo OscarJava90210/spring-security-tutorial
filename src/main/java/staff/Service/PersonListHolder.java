@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author AAM
  **/
-@XmlRootElement(name = "personsWrapper")
+@XmlRootElement(name="personsWrapper")
 public class PersonListHolder {
 
     private ArrayList<Person> persons = new ArrayList<>();

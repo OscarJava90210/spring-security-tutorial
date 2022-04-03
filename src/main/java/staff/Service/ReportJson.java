@@ -17,7 +17,6 @@ public class ReportJson {
             fileToWriteJson.getParentFile().mkdir();
             fileToWriteJson.createNewFile();
         }
-
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.writeValue(fileToWriteJson, fileToWriteJson);
     }
