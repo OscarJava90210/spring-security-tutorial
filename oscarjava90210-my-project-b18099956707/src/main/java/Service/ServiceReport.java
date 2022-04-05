@@ -4,7 +4,7 @@ import Model.Document;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/* Класс для порядкового вывода информации на консоль
+/**Класс для порядкового вывода информации на консоль
  *
  * @author AAM
  * */

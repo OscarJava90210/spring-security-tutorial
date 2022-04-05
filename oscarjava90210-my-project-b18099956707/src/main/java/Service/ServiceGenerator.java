@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
-/*Класс для генерации чисел и дат
+/**Класс для генерации чисел и дат
 *
 * @author AAM
 * */

@@ -9,7 +9,7 @@ import Service.StorageList;
  * Репозиторий для класса  outgoing
  *
  * @author AAM
- */
+ **/
 public class OutgoingRepository extends StorageList {
     /**
      * Конструктор OutgoingRepository

@@ -6,7 +6,7 @@ import Model.OutgoingDocument;
  * Класс - фабрика исходящих документов
  * @return объект - исходящий документ
  * @author AAM
- */
+ **/
 public class OutgoingFactory implements DocumentFactory<OutgoingDocument> {
   
 /**

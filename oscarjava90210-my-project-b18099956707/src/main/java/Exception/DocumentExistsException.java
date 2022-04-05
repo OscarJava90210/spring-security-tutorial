@@ -1,4 +1,4 @@
-package Exception;
+package Exception ;
 
 /**
   * Класс для ошибок при создании документов

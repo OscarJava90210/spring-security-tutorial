@@ -1,4 +1,4 @@
-package Factory;
+package Factory ;
 
 /**
  * Интерфейс для генерации классов Model.Document

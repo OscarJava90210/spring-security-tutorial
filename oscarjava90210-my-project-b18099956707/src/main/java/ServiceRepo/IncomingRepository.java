@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * Репозиторий для класса IncomingRepository
  *
  * @author AAM
- */
+ **/
 public class IncomingRepository<T> extends StorageList {
 
     /**

@@ -7,7 +7,7 @@ import java.util.Objects;
  * Реализация подкласа Задачи с полями
  *
  * @author AAM
- */
+ **/
 public class TaskDocument extends Document {
 
     /*Объявление полей класса*/

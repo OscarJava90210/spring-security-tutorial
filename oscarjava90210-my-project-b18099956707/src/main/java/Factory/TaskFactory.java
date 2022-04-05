@@ -8,7 +8,7 @@ import Service.ServiceList;
    * Класс - фабрика заданий
    * @return объект - документ задачи
    * @author AAM
-   */
+   **/
 public class TaskFactory implements DocumentFactory<TaskDocument> {
 
    /**

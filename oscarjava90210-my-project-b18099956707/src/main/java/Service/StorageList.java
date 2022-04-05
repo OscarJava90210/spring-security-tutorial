@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 /**
  * Класс-фабрика для созданий документов 
- */
+ **/
 public abstract class StorageList {
     IncomingRepository incomingRepository = new IncomingRepository();
     OutgoingRepository outgoingRepository = new OutgoingRepository();

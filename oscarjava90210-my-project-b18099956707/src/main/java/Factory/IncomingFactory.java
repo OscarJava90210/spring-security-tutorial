@@ -9,7 +9,7 @@ import static Service.ServiceGenerator.randomDate;
   * Класс - фабрика входящих документов
   * @return объект - входящий документ
   * @author AAM
-  */
+  **/
 public class IncomingFactory implements DocumentFactory< IncomingDocument > {
    
    /**

@@ -7,7 +7,7 @@ import java.util.Objects;
 /**
   * Класс- Model.IncomingDocument
   * 
-  */
+  **/
 public class IncomingDocument extends Document {
 
    /**

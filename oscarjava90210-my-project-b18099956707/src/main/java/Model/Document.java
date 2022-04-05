@@ -8,7 +8,7 @@ import java.util.Objects;
  * абстарктный класс - документ
  *
  * @author AAM
- */
+ **/
 public abstract class   Document implements Comparable <Document>, Storable {
 
     /**
